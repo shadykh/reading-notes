@@ -64,7 +64,7 @@ My website contents|
 [Read: 02a - Learning Markdown](./Read-02a) |
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
 [Mems](./mems) |
-[More about me](./Aboutme) | 
+[More about me](./aboutme) | 
 
 <br>
 
