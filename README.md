@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# What is the Git, GitHub and Markdown?
 
-You can use the [editor on GitHub](https://github.com/shadykh/reading-notes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Git and GitHup
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Git** is a version control system that lets you manage and keep track of your source code history. **GitHub** is a cloud-based hosting service that lets you manage **Git** repositories. If you have open-source projects that use **Git**, then **GitHub** is designed to help you better manage them.
+In simple way we can say that **Git** as your usb-flash, you stores your files and thier versions and **GitHub** is as google cloud.
+If you are fresh of all of this (and you are :p), to start with **GitHub** you should follow these steps:
+* Create an account on the website.
+- Sign in into your account.
++ Go to Create a repository.
+- Clone the repository to your local machine. 
+``` 
+git Clone 'yourlink' 
+``` 
+* Do your editing.
+* Write those following code:
+``` 
+    - git add "your file name"
+    - git commit -m "Your comment"
+    - git push origin main
+``` 
+* Now you are hacker (I'm kidding :p)
 
-### Markdown
+For further information you can check this website:
+- [Git and GitHub](https://pages.github.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+***
 
-# Header 1
-## Header 2
-### Header 3
+## Markdown files
 
-- Bulleted
-- List
+**Markdown** file is look like your normal text files but this one has  a way to style text on the web. I will give you some examples for this. So, please check the below examples.
+The Style | The Way to do it | Example
+------------ | ------------- | -----------
+Bold | Use ** or __ before and after the word| **Bold** 
+Italic | Use * or - before and after the word| *Italic*
+Strikethrough | Use ~~ before and after the word| ~~Strikethrough~~
+Bold and nested italic | Use ** and _ before and after the word| **Bold and _Italic_**
+All bold and italic | Use ***  before and after the word| ***All bold and italic***
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+Other examples are:
+- If you want to add a qouto text, you use >:
+    - > This is qouto text
+- If you want to add a code style, you use ``` before and after, or press tap before and after your code:
+    -   ``` 
+        git push origin main 
+        ```
+There are a lot of **Markdown** methods and effects you can check it here:
+* [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shadykh/reading-notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   
+ 
