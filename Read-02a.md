@@ -50,10 +50,10 @@ Other examples are:
 
 
 There are a lot of **Markdown** methods and effects you can check it here:
-* [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji)
-
+* [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji)<br>
 
 <br>
+
 <br>
 
 My website contents|
@@ -66,3 +66,4 @@ My website contents|
 [More about me](./aboutme) | 
 
 <br>
+
