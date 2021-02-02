@@ -53,6 +53,20 @@ There are a lot of **Markdown** methods and effects you can check it here:
 * [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji)
 
 
+<br>
+<br>
+
+***
+My website contents|
+------------ | 
+[Main](./README) | 
+[Growth mindset](./README) | 
+[Read: 02a - Learning Markdown](./Read-02a) |
+[Read: 02b - Revisions and the Cloud](./Read-02b) |
+[Mems](./mems) |
+[More about me](./Aboutme) | 
+
+<br>
 
 
 
