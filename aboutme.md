@@ -46,8 +46,7 @@ I think that you are ready, so here is a shot of my writtings, enjoy while you r
 
 My website contents|
 ------------ | 
-[Main](./README) | 
-[Growth mindset](./README) | 
+[Main](https://shadykh.github.io/reading-notes/) | 
 [Read: 02a - Learning Markdown](./Read-02a) |
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
 [Mems](./mems) |

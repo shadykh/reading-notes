@@ -38,8 +38,7 @@ LOL, I'm too funny, right?<br>
 
 My website contents|
 ------------ | 
-[Main](./README) | 
-[Growth mindset](./README) | 
+[Main](https://shadykh.github.io/reading-notes/) | 
 [Read: 02a - Learning Markdown](./Read-02a) |
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
 [Mems](./mems) |
