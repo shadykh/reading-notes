@@ -18,9 +18,9 @@ origin  https://github.com/shadykh/reading-notes.git (fetch)
 origin  https://github.com/shadykh/reading-notes.git (push)
 ```
 <br>
+
 <br>
 
-***
 My website contents|
 ------------ | 
 [Main](./README) | 
@@ -31,7 +31,5 @@ My website contents|
 [More about me](./aboutme) | 
 
 <br>
-
-
 
 

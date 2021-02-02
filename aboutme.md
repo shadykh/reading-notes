@@ -10,8 +10,8 @@ Firstly, I’m happy that you are here and you want to know more about me. So, w
 ## Contact Information
 Feel free to conatct me.
 - My **GitHub** : [https://github.com/shadykh](https://github.com/shadykh)
-- My Slack: U01L7MMUWPP
-<br>
+- My Slack: U01L7MMUWPP <br>
+
 ****
 
 ## My hoppies
@@ -41,9 +41,9 @@ I think that you are ready, so here is a shot of my writtings, enjoy while you r
 <br>
 
 <br>
+
 <br>
 
-***
 My website contents|
 ------------ | 
 [Main](./README) | 
@@ -54,4 +54,3 @@ My website contents|
 [More about me](./aboutme) | 
 
 <br>
-

@@ -56,7 +56,6 @@ There are a lot of **Markdown** methods and effects you can check it here:
 <br>
 <br>
 
-***
 My website contents|
 ------------ | 
 [Main](./README) | 
@@ -67,11 +66,3 @@ My website contents|
 [More about me](./aboutme) | 
 
 <br>
-
-
-
-
-
-
-   
- 
