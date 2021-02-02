@@ -49,6 +49,10 @@ Other examples are:
 There are a lot of **Markdown** methods and effects you can check it here:
 * [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#using-emoji)
 
+[Contribution guidelines for this project](root/Read-02a)
+
+
+
 
 
 
