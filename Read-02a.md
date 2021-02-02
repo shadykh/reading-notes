@@ -30,13 +30,14 @@ For further information you can check this website:
 ## Markdown files
 
 **Markdown** file is look like your normal text files but this one has  a way to style text on the web. I will give you some examples for this. So, please check the below examples.
+
 The Style | The Way to do it | Example
 ------------ | ------------- | -----------
-Bold | Use ** or __ before and after the word| **Bold** 
-Italic | Use * or - before and after the word| *Italic*
-Strikethrough | Use ~~ before and after the word| ~~Strikethrough~~
-Bold and nested italic | Use ** and _ before and after the word| **Bold and _Italic_**
-All bold and italic | Use ***  before and after the word| ***All bold and italic***
+Bold | Use `**` or `__` before and after the word| **Bold** 
+Italic | Use `*` or `_` before and after the word| *Italic*
+Strikethrough | Use `~~` before and after the word| ~~Strikethrough~~
+Bold and nested italic | Use `**` and `_` before and after the word| **Bold and _Italic_**
+All bold and italic | Use `***`  before and after the word | ***All bold and italic***
 
 
 Other examples are:
