@@ -37,7 +37,7 @@ Italic | Use * or - before and after the word| *Italic*
 Strikethrough | Use ~~ before and after the word| ~~Strikethrough~~
 Bold and nested italic | Use ** and _ before and after the word| **Bold and _Italic_**
 All bold and italic | Use ***  before and after the word| ***All bold and italic***
----
+
 
 Other examples are:
 - If you want to add a qouto text, you use >:
