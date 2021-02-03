@@ -1,4 +1,4 @@
-<img src="https://lh4.googleusercontent.com/tXJHTOYpEDpAbfAk71ccmTz9T4ZNjmcL1faE1Hj7Pxgapih0zbMwt-pIU4vUcC706Ix8bwRG0Q=w1280" width="150" height="100" />
+<img src="https://lh4.googleusercontent.com/tXJHTOYpEDpAbfAk71ccmTz9T4ZNjmcL1faE1Hj7Pxgapih0zbMwt-pIU4vUcC706Ix8bwRG0Q=w1280" align="right" style="height: 100px"/>
 <br>
 
 # Welcome to my website
