@@ -11,7 +11,7 @@
 
 > * [Process & Design.](ch18.md)
 > - [Structure.](ch1.md)
-> + [HTML5 Layou](ch17.md)
+> + [HTML5 Layout](ch17.md)
 > * [Extra Markup](ch5.md)
 <br>
 
