@@ -41,6 +41,7 @@ My website contents|
 [Main](https://shadykh.github.io/reading-notes/) | 
 [Read: 02a - Learning Markdown](./Read-02a) |
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
+[Read: 03 - Structure web pages with HTML](Read-03) |
 [Mems](./mems) |
 [More about me](./aboutme) | 
 
