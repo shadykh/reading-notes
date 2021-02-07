@@ -62,6 +62,9 @@
         document.write("test);
     }
     ```
+
+<br>
+
 ### How we call a function:
     ```
     printtest();
