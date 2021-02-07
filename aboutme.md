@@ -50,6 +50,7 @@ My website contents|
 [Read: 02a - Learning Markdown](./Read-02a) |
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
 [Read: 03 - Structure web pages with HTML](Read-03) |
+[Read: 04 - Programming with JavaScript](Read-04) |
 [Mems](./mems) |
 [More about me](./aboutme) | 
 
