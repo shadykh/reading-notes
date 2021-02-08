@@ -1,4 +1,3 @@
-<br>
 
 # Programming with JavaScript
 ### Did you ever used the slideshow or forms in any webpage? How you interact with them? Did you access, modify, program or react to the content in some webpage?
@@ -79,6 +78,7 @@ My website contents|
 [Read: 02b - Revisions and the Cloud](./Read-02b) |
 [Read: 03 - Structure web pages with HTML](Read-03) |
 [Read: 04 - Programming with JavaScript](Read-04) |
+[Read: 05 - Operators and Loops](Read-05) |
 [Mems](./mems) |
 [More about me](./aboutme) | 
 
