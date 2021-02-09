@@ -28,6 +28,7 @@ My website contents|
 [Read: 03 - Structure web pages with HTML](Read-03) |
 [Read: 04 - Programming with JavaScript](Read-04) |
 [Read: 05 - Operators and Loops](Read-05) |
+[Read: 06a - Functions](Read-06a) |
 [Mems](./mems) |
 [More about me](./aboutme) | 
 
