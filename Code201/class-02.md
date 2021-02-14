@@ -30,7 +30,8 @@
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Structural markup** <br>
 We have many structural markup in the Html and CSS, we will mention some of them here.</span> 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Headings <br>
-	- We use the letter h with numbers from 1 to 6, to style the header.(`<h1>`,`<h2>`,`<h2>`,`<h4>`,`<h5>` and `<h6>`)
+	- We use the letter h with numbers from 1 to 6, to style the header.(`<h1>`,`<h2>`,`<h2>`,`<h4>`,`<h5>` and `<h6>`) <br>
+
 		```
 		<h1> This is h1 header </h1>
 		```
@@ -40,22 +41,21 @@ We have many structural markup in the Html and CSS, we will mention some of them
 		<h6> This is h6 header </h6>
 		```
 		><h6> This is h6 header </h6>
-
 </span> 
 <br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Paragraphs <br>
-	- We use the `<p>` tag for the paragraph.
+	- We use the `<p>` tag for the paragraph.<br>
+	
 		```
 		<p>
 		This is a paragraph
 		</p>
 		```
-</span> 
+	</span> 
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Bold & Italic <br>
-	- We use the `<b>` for **Bold** and `<i>` for *Italic*.
-</span> 
+	- We use the `<b>` for **Bold** and `<i>` for *Italic*.</span> 
 <br>
 
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Semantic markup** <br>
