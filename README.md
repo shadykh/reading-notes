@@ -15,8 +15,8 @@ This website built to be easy to navigate between the reading notes, it divides 
 <br>
 
 
-| [<img src="assests/code102.gif">](code102)    | 
+| [<img src="assets/code102.gif">](Code102/code102.md)    | 
 | ----------- | 
-| [<img src="assests/code201.gif">](code201)     | 
-| [<img src="assests/code301.gif">](code301)   | 
-| [<img src="assests/code401.gif">](code401)   | 
+| [<img src="assets/code201.gif">](Code201/code201.md)     | 
+| [<img src="assets/code301.gif">](Code301/code301.md)   | 
+| [<img src="assets/code401.gif">](Code401/code401.md)   | 

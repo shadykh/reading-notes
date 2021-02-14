@@ -39,14 +39,14 @@ LOL, I'm too funny, right?<br>
 My website contents|
 ------------ | 
 [Main](https://shadykh.github.io/reading-notes/) | 
-[Read: 02a - Learning Markdown](./Read-02a) |
-[Read: 02b - Revisions and the Cloud](./Read-02b) |
-[Read: 03 - Structure web pages with HTML](Read-03) |
-[Read: 04 - Programming with JavaScript](Read-04) |
-[Read: 05 - Operators and Loops](Read-05) |
-[Read: 06a - Functions](Read-06a) |
-[Read: 06b - Design web pages with CSS](Read-06b) |
-[Mems](./mems) |
-[More about me](./aboutme) | 
+[Read: 02a - Learning Markdown](Code102/Read-02a.md) |
+[Read: 02b - Revisions and the Cloud](Code102/Read-02b) |
+[Read: 03 - Structure web pages with HTML](Code102/Read-03) |
+[Read: 04 - Programming with JavaScript](Code102/Read-04) |
+[Read: 05 - Operators and Loops](Code102/Read-05) |
+[Read: 06a - Functions](Code102/Read-06a) |
+[Read: 06b - Design web pages with CSS](Code102/Read-06b) |
+[Mems](Code102/mems) |
+[More about me](Code102/aboutme) | 
 
 <br>
