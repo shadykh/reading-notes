@@ -52,10 +52,11 @@ We have many structural markup in the Html and CSS, we will mention some of them
 		This is a paragraph
 		</p>
 		```
-	</span> 
+</span> 
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Bold & Italic <br>
-	- We use the `<b>` for **Bold** and `<i>` for *Italic*.</span> 
+	- We use the `<b>` for **Bold** and `<i>` for *Italic*.<br>
+	</span> 
 <br>
 
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Semantic markup** <br>
@@ -143,8 +144,9 @@ content has strong importance.
 </span> 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">There are many way to select element to apply the CSS on them, they called selector[7]:<br>
 
-![Selector](assets/selector.png)
+![Selector](https://github.com/shadykh/reading-notes/blob/main/Code201/assets/selector.PNG?raw=true)
 <br>
+
 ---
 <span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Basic JavaScript Instructions** </span>
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
@@ -215,8 +217,9 @@ An expression evaluates into (results in) a single value. Broadly speaking there
 Expressions rely on things called operators; they allow programmers to create a single value from one or more values.[15]
 <br>
 
-![Operators](assets/operators.png)
+![Operators](https://github.com/shadykh/reading-notes/blob/main/Code201/assets/operators.PNG?raw=true)
 </span> <br>
+
 ---
 <span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Decisions and Loops** </span>
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
