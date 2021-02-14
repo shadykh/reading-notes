@@ -99,6 +99,8 @@ content has strong importance.
 		>This is "a Short quote"
 </span> 
 ---
+<br>
+
 <span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Introducing CSS** </span>
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
  When you bulit your html page, you of course want it to look good when someone visit it, so here come the CSS. <br><br>
@@ -140,6 +142,7 @@ content has strong importance.
 		>`<style>` include CSS rules within an HTML page, which usually sits inside the `<head>` element of the page.
 </span> 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">There are many way to select element to apply the CSS on them, they called selector[7]:<br>
+
 ![Selector](assets/selector.png)
 <br>
 ---
@@ -166,7 +169,10 @@ A script will have to temporarily store the bits of information it needs to do i
 		> name is the variable here, which contain the string value `"Shady"`<br>
 
 	- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">There is six rules to name the variables are shown below.
+<br>
+
 ![Naming](assets/naming.png)
+
 </span>
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Data Types:<br>
 JavaScript distinguishes between numbers, strings, and true or false values known as Booleans.[12]
@@ -206,7 +212,9 @@ An expression evaluates into (results in) a single value. Broadly speaking there
 </span> <br>
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Operators:<br>
 Expressions rely on things called operators; they allow programmers to create a single value from one or more values.[15]
-	![Operators](assets/operators.png)
+<br>
+
+![Operators](assets/operators.png)
 </span> <br>
 ---
 <span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Decisions and Loops** </span>
