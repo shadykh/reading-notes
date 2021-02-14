@@ -171,13 +171,14 @@ A script will have to temporarily store the bits of information it needs to do i
 	- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">There is six rules to name the variables are shown below.
 <br>
 
-![Naming](assets/naming.png)
+![Naming](https://github.com/shadykh/reading-notes/blob/main/Code201/assets/naming.PNG?raw=true)
 
 </span>
+
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Data Types:<br>
 JavaScript distinguishes between numbers, strings, and true or false values known as Booleans.[12]
 	- Numeric: `var num = 5;`
-	- String: `var name = "Shady";`
+	- String: var name = "Shady";`
 	- Boolean: `var checkIf = true;`
 </span> <br>
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Arrays:<br>
