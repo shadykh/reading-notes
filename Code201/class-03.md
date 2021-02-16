@@ -72,8 +72,8 @@ In the CSS, if you want to do some styling at heading for example, it deals with
         background-color: #black;}
     ```
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Border, margin& Padding**. <br></span>
-![border](https://blog.hubspot.com/hs-fs/hubfs/dyno-mapper-sitemap-generator.png?width=566&name=dyno-mapper-sitemap-generator.png)
-![margin](https://blog.hubspot.com/hs-fs/hubfs/dyno-mapper-sitemap-generator.png?width=566&name=dyno-mapper-sitemap-generator.png)
+![border](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/border.PNG)<br><br>
+![margin](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/margin.PNG)
 <br>
 > For more information please see the Duckett, J. (2014). JavaScript &amp; jQuery ; HTML &amp; CSS. In JavaScript &amp; jQuery ; HTML &amp; CSS (p.300-329). Indianapolis, IN: John Wiley &amp; Sons.
 ---
