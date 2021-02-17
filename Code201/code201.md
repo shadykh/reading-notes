@@ -7,7 +7,7 @@
 <span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Code 201** </span>
 
 
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 151** is the Foundations of Software Development. In this part of my journey, I will take my capabilities to a whole new level, enabling me to create my own technically-functional web apps, as well as develop methods to design, organize and manage software projects. <br><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 201** is the Foundations of Software Development. In this part of my journey, I will take my capabilities to a whole new level, enabling me to create my own technically-functional web apps, as well as develop methods to design, organize and manage software projects. <br><br>
 So, here will see a table of contents for the required reading task during code 201.</span>
 <br>
 
