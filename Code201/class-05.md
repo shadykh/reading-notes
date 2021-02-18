@@ -15,6 +15,7 @@
 - <span style="font-family:Courier New; font-size:15px;color:rgb(160, 90, 113)"> Text. 
 </span><br>
 ---
+<br>
 <span style="font-family:Courier New; font-size:25px;color:rgb(60, 179, 13)">Images
 </span> <br>
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 130, 13)">Every website you saw until now, I think you release that they are have an images. So, how you can add an image in your webpage. <br></span> 
