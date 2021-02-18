@@ -13,7 +13,7 @@
 - <span style="font-family:Courier New; font-size:15px;color:rgb(250, 179, 113)"> Color. 
 </span>
 - <span style="font-family:Courier New; font-size:15px;color:rgb(160, 90, 113)"> Text. 
-</span>
+</span><br>
 ---
 <span style="font-family:Courier New; font-size:25px;color:rgb(60, 179, 13)">Images
 </span> <br>
@@ -74,7 +74,7 @@ by browsers. For example: DarkCyan.<br>
 <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">CSS treats each HTML element as if it appears in a box, and the background-color propert sets the color of the background for that box. You can specify your choice of background color in the same three ways you can specify foreground colors: RGB values, hex codes, and color names. To understand the colors, see the following photo. </span><br>
 ![colors](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/colors.PNG)<br><br>
 <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">Contrast</span><br>
-![contrast](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/ontrast.PNG)<br><br>
+![contrast](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/contrast.PNG)<br><br>
 <span style="font-family:Courier New; font-size:20px;color:rgb(200, 179, 113)">Opacity</span><br>
 <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">CSS3 introduces the opacity property which allows you to specify the opacity of an element
 and any of its child elements. The value is a number between 0.0 and 1.0 (so a value of 0.5
