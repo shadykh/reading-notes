@@ -1,10 +1,11 @@
 <img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 06**</span>
+	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 06**</span><br>
 
 ---
+
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Read: 06 - "JS Object Literals; The DOM"** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Read: 06 - "JS Object Literals; The DOM"** </span> <br>
 
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 06, I will have those three topics: 
 </span><br>
@@ -97,7 +98,7 @@ When a DOM method can return more than one element, it returns a Nodelist (even 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 13 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Local Storage </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> CSS Transforms, Transitions, and Animations </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> What Google Learned About Teams </span>       |[<img src="assets/uc.gif">](UC)|
-<br>
+
 
 ---
 | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **Number** </span> |  <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **References** </span>  |
