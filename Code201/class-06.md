@@ -100,7 +100,10 @@ When a DOM method can return more than one element, it returns a Nodelist (even 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> What Google Learned About Teams </span>       |[<img src="assets/uc.gif">](UC)|
 
 
+<br>
 ---
+<br>
+
 | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **Number** </span> |  <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **References** </span>  |
 | ----------- | ----------- |
-| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> Duckett, J. (2014). JavaScript &amp; jQuery ; HTML &amp; CSS. In JavaScript &amp; jQuery ; HTML &amp; CSS . Indianapolis, IN: John Wiley &amp; Sons. </span>       |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> Duckett, J. (2014). JavaScript &amp; JQuery: Interactive front-end web development. In JavaScript &amp; JQuery: Interactive Front-End Web Development . John Wiley &amp; Sons. </span>       |
