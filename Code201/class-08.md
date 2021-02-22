@@ -1,15 +1,48 @@
 <img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Code 201**</span>
+	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 08**</span><br>
 
 ---
+
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Code 201** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Read: 08 - "More CSS Layout"** </span> <br>
 
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 08, I will talk only about: 
+</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Layout.
+</span><br>
+---
+<span style="font-family:Courier New; font-size:25px;color:rgb(60, 179, 113)"> Layout </span><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">What is a layout?</span><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">We are going to look at how to control where each element sits on a page and how to create attractive page layouts.<br><br>
+Key concepts in positioning eLements:
+</span> <br>
 
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 201** is the Foundations of Software Development. In this part of my journey, I will take my capabilities to a whole new level, enabling me to create my own technically-functional web apps, as well as develop methods to design, organize and manage software projects. <br><br>
-So, here will see a table of contents for the required reading task during code 201.</span>
-<br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">Building Blocks</span><br>
+
+    - ![block](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/block.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">Controlling the position of eLements</span><br>
+
+    - ![relative](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/relative.PNG)<br><br>
+
+    - ![floaEl](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/floaEl.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">Fixed width Layouts</span><br>
+
+    - ![fixed](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/fixed.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">Liquid Layouts</span><br>
+
+    - ![liq](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/liq.PNG)<br><br>
+
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">As a summary we can say those points:
+</span> <br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">There is something called `<div>` that can be used as a container; that contains many elements to apply CSS on them as a group.</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">The Float is a great tool in css, you can create multi-column layouts.</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">The Float is a great tool in css, you can create multi-column layouts.</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">The pages can be fixed or liquid.</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(200, 179, 113)">You can do a lot of CSS in one file.</span><br>
 
 ---
 <br>
@@ -35,3 +68,11 @@ So, here will see a table of contents for the required reading task during code 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> CSS Transforms, Transitions, and Animations </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> What Google Learned About Teams </span>       |[<img src="assets/uc.gif">](UC)|
 
+
+<br>
+---
+<br>
+
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **Number** </span> |  <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **References** </span>  |
+| ----------- | ----------- |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> Duckett, J. (2014). JavaScript &amp; jQuery ; HTML &amp; CSS. In JavaScript &amp; jQuery ; HTML &amp; CSS. Indianapolis, IN: John Wiley &amp; Sons. </span>       |
