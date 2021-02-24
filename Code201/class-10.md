@@ -32,7 +32,7 @@
 
     ![errObj](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj.PNG)<br><br>
 
-    ![errObj1.PNG](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj1.PNG.PNG)<br><br>
+    ![errOBB.PNG](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errOBB.PNG.PNG)<br><br>
 
     ![errObj2.PNG](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj2.PNG)<br><br>
 
@@ -61,6 +61,8 @@
 
 
 ---
+
+
 <br>
 
 [<img src="assets/main.gif">](README)
@@ -83,6 +85,9 @@
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 13 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Local Storage </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> CSS Transforms, Transitions, and Animations </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> What Google Learned About Teams </span>       |[<img src="assets/uc.gif">](UC)|
+
+
+
 ---
 <br>
 
