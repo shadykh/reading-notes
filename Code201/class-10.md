@@ -1,15 +1,64 @@
 <img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Code 201**</span>
+	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 10**</span><br>
 
 ---
+
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Code 201** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Read: 10 - "Error Handling & Debugging."** </span> <br>
+
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 10, I will talk only about: 
+</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Error Handling & Debugging.</span><br><br>
 
 
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 201** is the Foundations of Software Development. In this part of my journey, I will take my capabilities to a whole new level, enabling me to create my own technically-functional web apps, as well as develop methods to design, organize and manage software projects. <br><br>
-So, here will see a table of contents for the required reading task during code 201.</span>
-<br>
+---
+
+<br><br>
+
+<span style="font-family:Courier New; font-size:25px;color:rgb(60, 179, 113)"> Error Handling & Debugging. </span><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">What is the Error Handling & Debugging.?</span><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> JavaScript can be hard to learn and everyone makes mistakes when writing it. This chapter will help you learn how to find the errors in your code. It will also teach you how to write scripts that deal with potential errors gracefully.</span> <br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Order of Execution</span><br>
+
+    ![OrderOf](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/OrderOf.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Execution Contexts</span><br>
+
+    ![ExeCont](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/ExeCont.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Error Objects</span><br>
+
+    ![errObj](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj.PNG)<br><br>
+
+    ![errObj1.PNG](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj1.PNG.PNG)<br><br>
+
+    ![errObj2.PNG](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/errObj2.PNG)<br><br>
+
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Logging Data to The Console</span><br>
+
+    ![LogDaToCo](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/LogDaToCo.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Debugger Keyword</span><br>
+
+    ![DeKey](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/DeKey.PNG)<br><br>
+
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Handling Exceptions</span><br>
+
+    ![TCF](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/TCF.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Debugging Tips</span><br>
+
+    ![DebTool](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/DebTool.PNG)<br><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Common Errors</span><br>
+
+    ![CommErr](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/CommErr.PNG)<br><br>
+
+
 
 ---
 <br>
@@ -34,4 +83,9 @@ So, here will see a table of contents for the required reading task during code 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 13 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Local Storage </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> CSS Transforms, Transitions, and Animations </span>       |[<img src="assets/uc.gif">](UC)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> What Google Learned About Teams </span>       |[<img src="assets/uc.gif">](UC)|
+---
+<br>
 
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **Number** </span> |  <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **References** </span>  |
+| ----------- | ----------- |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> Duckett, J. (2014). JavaScript &amp; JQuery: Interactive front-end web development. In JavaScript &amp; JQuery: Interactive Front-End Web Development . John Wiley &amp; Sons. </span>       |
