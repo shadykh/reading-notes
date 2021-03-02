@@ -176,7 +176,7 @@
             opacity:1;
     }
     ```
-    ![fadeIn](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/fadeIn.PNG)<br><br>
+    ![fadeIn](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/fadeIn.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Change color</span><br>
 
@@ -186,7 +186,7 @@
             background:#53a7ea;
     }
     ```
-    ![changeColor](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/changeColor.PNG)<br><br>
+    ![changeColor](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/changeColor.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Grow</span><br>
 
@@ -198,7 +198,7 @@
             transform: scale(1.3);
     }
     ```
-    ![grow](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/grow.PNG)<br><br>
+    ![grow](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/grow.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Rotate elements</span><br>
 
@@ -210,7 +210,7 @@
             transform: rotateZ(-30deg);
     }
     ```
-    ![rotate](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/rotate.PNG)<br><br>
+    ![rotate](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/rotate.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Square to circle</span><br>
 
@@ -220,7 +220,7 @@
             border-radius:50%;
     }
     ```
-    ![SqToCi](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/SqToCi.PNG)<br><br>
+    ![SqToCi](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/SqToCi.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">3D shadow</span><br>
 
@@ -235,7 +235,7 @@
             transform: translateX(-3px);
     }
     ```
-    ![3dShadow](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/3dShadow.PNG)<br><br>
+    ![3dShadow](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/3dShadow.png)<br><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Inset border</span><br>
 
@@ -245,7 +245,7 @@
             box-shadow: inset 0 0 0 25px #53a7ea;
     }
     ```
-    ![insetBorder](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/insetBorder.PNG)<br><br>
+    ![insetBorder](https://raw.githubusercontent.com/shadykh/reading-notes/main/Code201/assets/insetBorder.png)<br><br>
 
 
 > For more information please see the reference [3].
