@@ -251,10 +251,10 @@
 > For more information please see the reference [3].
 
 > Review the following examples on CSS animations of today Read:
-> - https://codepen.io/retyui/pen/ByoaXV
-> - https://codepen.io/akshaychauhan/pen/oAfae
-> - https://codepen.io/kieranfivestars/pen/MYdQxX
-> - https://codepen.io/dp_lewis/pen/gCfBv
+> - [6 Buttons animated](https://codepen.io/retyui/pen/ByoaXV) 
+> - [CSS3 Animations: Keyframes](https://codepen.io/akshaychauhan/pen/oAfae) 
+> - [404](https://codepen.io/kieranfivestars/pen/MYdQxX) 
+> - [Pure CSS Bounce Animation](https://codepen.io/dp_lewis/pen/gCfBv) 
 
 <br>
 
@@ -292,6 +292,6 @@
 
 | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **Number** </span> |  <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> **References** </span>  |
 | ----------- | ----------- |
-| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> https://learn.shayhowe.com/advanced-html-css/css-transforms/ </span>       |
-| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> https://learn.shayhowe.com/advanced-html-css/transitions-animations/ </span>       |
-| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users </span>       |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)">[https://learn.shayhowe.com/advanced-html-css/css-transforms/](https://learn.shayhowe.com/advanced-html-css/css-transforms/)</span>       |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [https://learn.shayhowe.com/advanced-html-css/transitions-animations/](https://learn.shayhowe.com/advanced-html-css/transitions-animations/) </span>       |
+| <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [1] </span>      | <span style="font-family:Courier New; font-size:13px;color:rgb(60, 179, 113)"> [https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users) </span>       |
