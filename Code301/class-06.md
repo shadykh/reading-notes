@@ -51,7 +51,7 @@ Another definition of **Node.js** is an event-based, non-blocking, asynchronous 
     - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Node is particularly suited to building applications that require some form of real-time interaction or collaboration — for example, chat sites, or apps such as CodeShare, where you can watch a document being edited live by someone else. It’s also a good fit for building APIs where you’re handling lots of requests that are I/O driven (such as those needing to perform operations on a database), or for sites involving data streaming, as Node makes it possible to process files while they’re still being uploaded.</span><br>
 
 - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">What Are the Advantages of Node.js?</span><br>
-    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Aside from speed and scalability, an often-touted advantage of using JavaScript on a web server — as well as in the browser — is that your brain no longer needs to switch modes. You can do everything in the same language, which, as a developer, makes you more productive (and hopefully, happier). For example, you can easily share code between the server and the client.</span><br>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Aside from speed and scalability, an often-touted advantage of using JavaScript on a web server — as well as in the browser — is that your brain no longer needs to switch modes. You can do everything in the same language, which, as a developer, makes you more productive (and hopefully, happier). For example, you can easily share code between the server and the client.</span><br><br>
 
 
 
