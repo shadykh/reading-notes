@@ -1,10 +1,10 @@
 <img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 07**</span>
+	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 08**</span>
 
 ---
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **APIs** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **SQL** </span>
 
 
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 08, I will talk about this topic: 
