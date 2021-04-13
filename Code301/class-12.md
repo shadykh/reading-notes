@@ -1,14 +1,33 @@
 <img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Code 301**</span>
+	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 12**</span>
 
 ---
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Code 301** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **EJS** </span>
 
 
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 301**  This course picks up from Code 201 and immerses you into the core of software development. You will learn Model View Controller (MVC) architecture and Object-Oriented Programming, as well as computer science fundamentals such as basic data structures and algorithms. Learn how to create and launch web apps in HTML, CSS and JavaScript, with the help of third-party application programming interfaces (API) and libraries. Prepare to acquire and practice a new concept and skill with each class, after which you may begin the journey of professional software development.<br><br>
-So, here will see a table of contents for the required reading task during code 301.</span>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 12, I will talk about this topic: 
+</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">EJS Partials.
+<br>
+
+---
+<br>
+
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**EJS Partials** </span><br>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Partials come in handy when you want to reuse the same HTML across multiple views. Think of partials as functions, they make large websites easier to maintain as you don’t have to go and change a piece of text in every page it appears in. Instead, you define that reusable bundle of code in a file andinclude it wherever you need it.<br>
+</span> 
+
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In EJS, any JavaScript or non-HTML syntax you include in your templates is always surrounded by `<% %>` delimiters<br>Including a partial in EJS is quite straightforward. You use `<%- include( PARTIAL_FILE ) %>` where the partial file is relative to the template you use it in.<br>
+Note:<br> The `<%- %>` tags allow us to output the unescaped content onto the page (notice the -). This is important when using the include() statement since you don’t want EJS to escape your HTML characters like ‘<’, ‘>’, etc…
+</span> 
+
+
+<br><br>
+
+> For further infromation please click [here](https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433).
+
 <br>
 
 ---
@@ -35,4 +54,8 @@ So, here will see a table of contents for the required reading task during code 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> DB Normalization </span>       |[<img src="assets/taphere.gif">](class-14a)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Project Ideas & APIs </span>       |[<img src="assets/taphere.gif">](class-14b)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 15 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Diversity and Inclusion </span>       |[<img src="assets/taphere.gif">](class-14b)|
+
+
+
+
 
