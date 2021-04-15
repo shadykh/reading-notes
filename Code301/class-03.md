@@ -69,6 +69,9 @@
 
 <br>
 
+---
+<br>
+
 [<img src="assets/main.gif">](README)
 <br>
 
@@ -85,9 +88,13 @@
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 09 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Refactoring </span>       |[<img src="assets/taphere.gif">](class-09)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 10 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> The Call Stack and Debugging </span>       |[<img src="assets/taphere.gif">](class-10)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 11 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> EJS </span>       |[<img src="assets/taphere.gif">](class-11)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 12 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Components </span>       |[<img src="assets/taphere.gif">](class-12f)|
+| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 12 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Components </span>       |[<img src="assets/taphere.gif">](class-12)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 13 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Update/Delete </span>       |[<img src="assets/taphere.gif">](class-13)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> DB Normalization </span>       |[<img src="assets/taphere.gif">](class-14a)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14b </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Project Ideas & APIs </span>       |[<img src="assets/taphere.gif">](class-14b)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 15 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Diversity and Inclusion </span>       |[<img src="assets/taphere.gif">](class-14b)|
+| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 15 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Diversity and Inclusion </span>       |[<img src="assets/taphere.gif">](class-15)|
+
+
+
+
+
 
