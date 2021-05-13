@@ -1,4 +1,4 @@
-<img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
+<img src="https://asac.ltuc.com/wp-content/themes/ASAC_Theme/images/logo.png"
 	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Shady Khaled Reading Notes!**</span>
 
 ---
