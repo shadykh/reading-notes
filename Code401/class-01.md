@@ -1,69 +1,126 @@
-<img src="https://asac.ltuc.com/wp-content/themes/asac/images/logo.png" alt="Kitten"
-	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 01**</span>
+<img src="../assets/logo.png"
+ title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Read: 01**</span>
 
 ---
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **RESPONSIVE WEB DESIGN and FLOATS** </span>
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Pre-Work - Code 401: Advanced Javascript Development** </span>
 
-
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 01, I will talk about those topics: 
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">In this Read: 01, I will talk about those topics:
 </span>
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Responsive Web Design.
-</span> 
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Floats. 
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">How to Solve Programming Problems.
+</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Become 100x More Productive.
+</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> How to think like a programmer — lessons in problem solving.
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> 5 Whys.
 </span>
 <br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Responsive Web Design** </span>
+---
+<br>
+
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**How to Solve Programming Problems** </span>
 <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
- Responsive web design is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile or desktop. Responsive web design is focused around providing an intuitive and gratifying experience for everyone. Desktop computer and cell phone users alike all benefit from responsive websites. <br><br>
-</span> 
+ When most programmers are given a programming problem in an interview, they make several key mistakes.  The most severe of those is the improper allocation of time. <br>
+If you have heard the saying “measure twice and cut once,” then you are probably familiar with the idea of spending upfront time to make sure something is done right, rather than diving right in. <br><br>
+</span>
 
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Flexible Layouts</span><br>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">You must resist this urge.</span><br>
 
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Responsive web design is broken down into three main components, including flexible layouts, media queries, and flexible media. The first part, flexible layouts, is the practice of building the layout of a website with a flexible grid, capable of dynamically resizing to any width. Flexible grids are built using relative length units, most commonly percentages or em units. These relative lengths are then used to declare common grid property values such as width, margin, or padding.</span> 
+    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">The most common mistake I see when conducting interviews or watching someone try to solve a programming problem is they try to start writing code as soon as possible. <br>
+    You really want to make sure you take enough time to understand the problem completely before attempting to solve it.
+    </span>
 
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">A simple set of steps</span><br>
 
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Read the problem completely twice.</span>
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Solve the problem manually with 3 sets of sample data.</span>
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Optimize the manual steps.</span>
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Write the manual steps as comments or pseudo-code.</span>
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Replace the comments or pseudo-code with real code.</span>
+  - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Optimize the real code.</span>
 
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Flexible Grid</span><br>
+> for further inforamtion please click [here](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Taking the flexible layout concept, and formula, and reapplying it to all parts of a grid will create a completely dynamic website, scaling to every viewport size. For even more control within a flexible layout, you can also leverage the min-width, max-width, min-height, and max-height properties.The flexible layout approach alone isn’t enough. At times the width of a browser viewport may be so small that even scaling the the layout proportionally will create columns that are too small to effectively display content. Specifically, when the layout gets too small, or too large, text may become illegible and the layout may begin to break. In this event, media queries can be used to help build a better experience.</span> 
-
-
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Flexible Grid</span><br>
-
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Taking the flexible layout concept, and formula, and reapplying it to all parts of a grid will create a completely dynamic website, scaling to every viewport size. For even more control within a flexible layout, you can also leverage the min-width, max-width, min-height, and max-height properties.The flexible layout approach alone isn’t enough. At times the width of a browser viewport may be so small that even scaling the the layout proportionally will create columns that are too small to effectively display content. Specifically, when the layout gets too small, or too large, text may become illegible and the layout may begin to break. In this event, media queries can be used to help build a better experience.</span> 
-
-
-
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Floats** </span>
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
-What is “Float”? <br>
-Float is a CSS positioning property. To understand its purpose and origin, we can look to print design. In a print layout, images may be set into the page such that text wraps around them as needed. This is commonly and appropriately called “text wrap”. Here is an example of that.<br><br>
-</span> 
-
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">What are floats used for?</span><br>
-
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">While floats can still be used for layout, these days, we have much stronger tools for creating layout on web pages. Namely, Flexbox and Grid. Floats are still useful to know about because they have some abilities entirely unique to them, which is all covered in this article.</span> 
-
-
-
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Clearing the Float</span><br>
-
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Float’s sister property is clear. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float. </span> 
-
-
-- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Problems with Floats</span><br>
-
-    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Floats often get beat on for being fragile. The majority of this fragility comes from IE 6 and the slew of float-related bugs it has. As more and more designers are dropping support for IE 6, you may not care, but for the folks that do care here is a quick rundown.</span> 
-
-
-
-
-
+---
 
 <br>
+
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**Become 100x More Productive** </span>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
+ You have very few hours here on on this earth.
+Still, many people waste much of their time on pointless, low-quality activities that don’t help them reach their true goals — their mission. <br> The truth is, most people value their time at far, far less than it’s worth. <br> They say yes to things they have no business doing. They give away their talents, attention, and effort to others who take, take, take.<br> They spend hours watching low-quality television and social media when they should be productive and effective. <br><br>
+</span>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">“Busyness” Isn’t a Badge of Honor; It’s a Sign of Weakness</span><br>
+
+    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">It takes discipline to not become “busy.” If you let it, your world and the people around you will take all your time. <br>
+    Your time is not unlike your paycheck; if you don’t budget for things, you’ll have nothing left over by the end of the month. <br>
+    This is how lives are wasted — by doing thankless work for ungrateful takers that didn’t deserve your time in the first place.
+    </span>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Busyness and Stress Are the Enemy</span><br>
+
+    <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Most people prize “being busy.” They proclaim it with pride, as if it’s a badge of honor. <br> But for most people, this “busyness” is nothing more than distraction and procrastination from what really matters. They just like feeling busy. <br> For world-class performers, busyness and stress are the enemy. They’re a sign you’re off-track. It means you’ve been lazy and undisciplined, and have let too many unimportant tasks take you away from what really matters.
+    </span>
+
+> for further inforamtion please click [here](https://medium.com/swlh/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-f04628bb3e6d)
+
+<br>
+
+---
+<br>
+
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">How to think like a programmer — lessons in problem solving </span>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
+ Problem solving is the meta-skill. We all have problems. Big and small. How we deal with them is sometimes, well…pretty random.</span>
+
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**The 4-Hour Chef**</span><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Understand</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Know exactly what is being asked. Most hard problems are hard because you don’t understand them (hence why this is the first step). </span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Plan</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Don’t dive right into solving without a plan (and somehow hope you can muddle your way through). Plan your solution!</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Divide</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Pay attention. This is the most important step of all.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Stuck?</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Debug: Go step by step through your solution trying to find where you went wrong. Programmers call this debugging (in fact, this is all a debugger does).</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Reassess: Take a step back. Look at the problem from another perspective. Is there anything that can be abstracted to a more general approach?</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Research: Ahh, good ol’ Google. You read that right. No matter what problem you have, someone has probably solved it. Find that person/ solution. In fact, do this even if you solved the problem! (You can learn a lot from other people’s solutions).</span>
+<br>
+
+> for further inforamtion please click [here](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
+
+
+---
+<br>
+
+<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)">**5 Whys** </span>
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"><br>
+ Have you ever had a problem that refused to go away? No matter what you did, sooner or later it would return, perhaps in another form. <br> Stubborn or recurrent problems are often symptoms of deeper issues. "Quick fixes" may seem convenient, but they often solve only the surface issues and waste resources that could otherwise be used to tackle the real cause.
+
+<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**How to Use the 5 Whys**</span><br>
+
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Assemble a Team</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Gather together people who are familiar with the specifics of the problem, and with the process that you're trying to fix. </span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Define the Problem</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">If you can, observe the problem in action. Discuss it with your team and write a brief, clear problem statement that you all agree on.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Ask the First "Why?"</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Ask your team why the problem is occurring. (For example, "Why isn't Team A meeting its response time targets?") Asking "Why?" sounds simple, but answering it requires serious thought. Search for answers that are grounded in fact: they must be accounts of things that have actually happened, not guesses at what might have happened.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Ask "Why?" Four More Times</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">For each of the answers that you generated in Step 3, ask four further "whys" in succession. Each time, frame the question in response to the answer you've just recorded.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Know When to Stop</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">You'll know that you've revealed the root cause of the problem when asking "why" produces no more useful responses, and you can go no further. An appropriate counter-measure or process change should then become evident.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Address the Root Cause(s)</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Now that you've identified at least one root cause, you need to discuss and agree on the counter-measures that will prevent the problem from recurring.</span>
+- <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Monitor Your Measures</span>
+    - <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Keep a close watch on how effectively your counter-measures eliminate or minimize the initial problem. You may need to amend them, or replace them entirely. If this happens, it's a good idea to repeat the 5 Whys process to ensure that you've identified the correct root cause.</span>
+
+<br>
+
+> for further inforamtion please click [here](https://www.mindtools.com/pages/article/newTMC_5W.htm)
 
 ---
 <br>
@@ -74,23 +131,3 @@ Float is a CSS positioning property. To understand its purpose and origin, we ca
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **Read** </span> |  <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **Title** </span>  |   <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **ToGo** </span>  |
 | ----------- | ----------- | ----------- |
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 01 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> SMACSS and Responsive Web Design </span>       |[<img src="assets/taphere.gif">](class-01)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 02 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> jQuery, Events, and The DOM </span>       |[<img src="assets/taphere.gif">](class-02)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 03 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Flexbox and Templating </span>       |[<img src="assets/taphere.gif">](class-03)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 04 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Responsive Web Design and Regular Expressions </span>       |[<img src="assets/taphere.gif">](class-04)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 05 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Heroku Deployment </span>       |[<img src="assets/taphere.gif">](class-05)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 06 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Node, Express, and APIs </span>       |[<img src="assets/taphere.gif">](class-06)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 07 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> APIs continued </span>       |[<img src="assets/taphere.gif">](class-07)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 08 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> SQL </span>       |[<img src="assets/taphere.gif">](class-08)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 09 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Refactoring </span>       |[<img src="assets/taphere.gif">](class-09)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 10 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> The Call Stack and Debugging </span>       |[<img src="assets/taphere.gif">](class-10)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 11 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> EJS </span>       |[<img src="assets/taphere.gif">](class-11)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 12 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Components </span>       |[<img src="assets/taphere.gif">](class-12)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 13 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Update/Delete </span>       |[<img src="assets/taphere.gif">](class-13)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 14a </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> DB Normalization </span>       |[<img src="assets/taphere.gif">](class-14a)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 15 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Diversity and Inclusion </span>       |[<img src="assets/taphere.gif">](class-15)|
-
-
-
-
-
-

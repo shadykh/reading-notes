@@ -1,4 +1,4 @@
-<img src="https://asac.ltuc.com/wp-content/themes/ASAC_Theme/images/logo.png"
+<img src="../assets/logo.png"
 	title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Code 401**</span>
 
 ---
@@ -19,3 +19,7 @@ So, here will see a table of contents for the required reading task during code 
 
 [<img src="assets/main.gif">](README)
 <br>
+
+| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **Read** </span> |  <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **Title** </span>  |   <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> **ToGo** </span>  |
+| ----------- | ----------- | ----------- |
+| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 01 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Pre-Work - Code 401: Advanced Javascript Development </span>       |[<img src="assets/taphere.gif">](class-01)|
