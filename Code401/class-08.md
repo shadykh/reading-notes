@@ -1,4 +1,4 @@
-# Readings: Authentication
+# Reading: Access Control (ACL)
 
 ## Review, Research, and Discussion
 
