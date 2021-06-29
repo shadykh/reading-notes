@@ -1,16 +1,57 @@
-<img src="../assets/logo.png"
- title="LTUC-Abdul Aziz Al Ghurair School of Advanced Computing" width="200" />  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family:Papyrus; font-size:25px;color:rgb(60, 179, 113)">**Welcome to Code 401**</span>
+# Reading: `<Login />` and `<Auth />`
+
+## Review, Research, and Discussion
+
+- Why is the Context API useful?
+  - The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
+
+- Can a component outside of a provider get its context?
+  - Yes.
+
+- What are some common use cases for using the Context API?
+  - Theming — Pass down app theme
+  - i18n — Pass down translation messages
+  - Authentication — Pass down current authenticated user
+
+- Describe “Context Hell”
+  - Like the callback hell, usual when jQuery was used for everything, the React Context hell is the nasty code you get taking advantage of the React Context API.
+  - To clean up the nasty code you get from taking advantage of React Context API we need a way to nest multiple Context.Provider without passing them as children of each other.
 
 ---
-<br>
 
-<span style="font-family:Courier New; font-size:20px;color:rgb(60, 179, 113)"> **Code 401** </span>
+## Vocabulary
 
-<span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">**Code 401**  TDiscover the latest technologies and tools used by professional software developers and learn more about established industry best practices from around the world – all within an environment that simulates that of major tech companies. In this intensive course, you will study algorithms and data structures and practice software development using advanced systems and programs such as server-side Node.js and client-side React.js. In less than four months, you will be ready to enter the technical job market; switch your career path and bring innovation to software development; or double your salary as a professional developer holding senior positions in tech companies.<br><br>
-So, here will see a table of contents for the required reading task during code 401.</span>
-<br>
+- global state
+  - global state management  tool was something that React needed and with React  16.3 they introduced the context API. Context provides a way to pass data through the component tree without having to pass props down manually at every level, managing state in multiple components that are not directly connected. Enough talking about it. Let me show you with some code. Let’s create a simple app to demonstrate how to set up a store that gives us access to the global state anywhere in the app.
 
-<br>
+- global context
+  - Context provides a way to pass data through the component tree without having to pass props down manually at every level, managing state in multiple components that are not directly connected
+
+- `<Provider>`
+  - Overview. The `<Provider>` component makes the Redux store available to any nested components that need to access the Redux store. Since any React component in a React Redux app can be connected to the store, most applications will render a `<Provider>` at the top level, with the entire app's component tree inside of it.
+- consumer
+  - A React component that subscribes to context changes. Using this component lets you subscribe to a context within a function component. Requires a function as a child. The function receives the current context value and returns a React node.
+
+---
+
+## Preparation
+
+- RBAC
+  - Role-based access control (RBAC) restricts network access based on a person's role within an organization and has become one of the main methods for advanced access control. The roles in RBAC refer to the levels of access that employees have to the network.
+- BENEFITS OF RBAC
+  - Managing and auditing network access is essential to information security. Access can and should be granted on a need-to-know basis. With hundreds or thousands of employees, security is more easily maintained by limiting unnecessary access to sensitive information based on each user’s established role within the organization.
+- BEST PRACTICES FOR IMPLEMENTING RBAC
+  - Current Status.
+  - Current Roles.
+  - Write a Policy.
+  - Make Changes.
+  - Continually Adapt.
+
+- react-cookies
+  - Cookies are the data stored in the form of key-value pairs that are used to store information about the user on their computer by the websites that the users browse and use it to verify them. To set or remove the cookies, we are going to use a third-party dependency of react-cookie.
+
+
+  - > For further information clicks =>[here](https://digitalguardian.com/blog/what-role-based-access-control-rbac-examples-benefits-and-more) OR [here](https://www.npmjs.com/package/react-cookie)
 
 ---
 <br>
@@ -35,7 +76,7 @@ So, here will see a table of contents for the required reading task during code 
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 16 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: AWS: Cloud Servers</span>       |[<img src="assets/taphere.gif">](class-16)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 17 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: AWS: S3 and Lambda</span>       |[<img src="assets/taphere.gif">](class-17)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 18 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: AWS: API, Dynamo and Lambda</span>       |[<img src="assets/taphere.gif">](class-18)|
-| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 19 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: AWS: Events</span>       |[<img src="assets/taphere.gif">](class-19)|
+| <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 18 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: AWS: Events</span>       |[<img src="assets/taphere.gif">](class-19)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 26 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Reading: Component Based UI</span>       |[<img src="assets/taphere.gif">](class-26)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 27 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Reading: Props and State</span>       |[<img src="assets/taphere.gif">](class-27)|
 | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)"> Read: 28 </span>      | <span style="font-family:Courier New; font-size:15px;color:rgb(60, 179, 113)">Readings: Component Composition</span>       |[<img src="assets/taphere.gif">](class-28)|
