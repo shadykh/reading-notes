@@ -1,55 +1,52 @@
-# Readings: Redux - Combined Reducers
+# Readings: Redux - Additional Topics
 
 ## Review, Research, and Discussion
 
-- Why choose Redux instead of the Context API for global state?
-  - So when using redux we can subscribe to the state or a peace/selection of the state and when the state or the selection of the state changes the subscribed component re-renders.
-  - But what does that means? It means if your components are not subscribed to the store they won't re-render after a dispatch.
-  - So now with that in mind if you have a lot of components simultaneously updating the global state where changes made by one component might not affect most of the other components. And you have lots and lots of those redux will give a performance edge.
-- What is the purpose of a reducer?
-  - A reducer is a function that determines changes to an application's state. It uses the action it receives to determine this change. We have tools, like Redux, that help manage an application's state changes in a single store so that they behave consistently.
+- What’s the best practice for “pre-loading” data into the store (on application start) in a Redux application?
+  - The most 'redux-like' way of handling the pre-loading of data would be to fire off the asynchronous action in the lifecycle method (probably componentWillMount ) of a Higher Order Component that wraps your app.
+- When using a thunk/async action that dispatches the actual action, which do you export from your reducer?
+  - A first approach is based on the Thunk middleware. The role of this middleware is very simple: verify if an action is a function and in which case execute it. This simple behaviour allows us to create actions no longer as simple objects, but as functions, which therefore have business logic.
+  - So, in order to solve our problem with asynchronous tasks, we can define an action as a function that starts an asynchronous task and delegates its execution to the thunk middleware. Unlike the reducer, middleware is not required to be a pure function, so the thunk middleware can perform functions that trigger side effects without any problem.
 
-- What does an action contain?
-  - Actions are the only source of information for the store as per Redux official documentation. It carries a payload of information from your application to store.
-
-- Why do we need to copy the state in a reducer?
-  - In the documentation of reducers(read it again for details!), redux only requires our reducers to stay pure. If the new state is different, the reducer must create new object, and making a copy is a way to describe the unchanged part.
 
 ---
 
 ## Vocabulary
 
-- immutable state
-  - In object-oriented and functional programming, an immutable object (unchangeable object) is an object whose state cannot be modified after it is created. This is in contrast to a mutable object (changeable object), which can be modified after it is created.
-- time travel in redux
-  - Time travel is the ability to move back and forth among the previous states of an application and view the results in real time. With Redux, given a specific state and a specific action, the next state of the application is always exactly the same.
-- action creator
-  - An action creator is merely a function that returns an action object. Redux includes a utility function called bindActionCreators for binding one or more action creators to the store's dispatch() function.
-- reducer
-  - A reducer is a function that determines changes to an application's state. It uses the action it receives to determine this change. We have tools, like Redux, that help manage an application's state changes in a single store so that they behave consistently.
-- dispatch
-  - dispatch() is the method used to dispatch actions and trigger state changes to the store. react-redux is simply trying to give you convenient access to it. Note, however, that dispatch is not available on props if you do pass in actions to your connect function.
+- middleware
+  - Middleware is software that lies between an operating system and the applications running on it. Essentially functioning as hidden translation layer, middleware enables communication and data management for distributed applications.
+- Thunk
+  - Thunk is a programming concept where a function is used to delay the evaluation/calculation of an operation.
+  - Redux Thunk is a middleware that lets you call action creators that return a function instead of an action object. That function receives the store’s dispatch method, which is then used to dispatch regular synchronous actions inside the function’s body once the asynchronous operations have been 
 
 ---
 
 ## Preparation
 
-- combineReducers
-  - The most common state shape for a Redux app is a plain Javascript object containing "slices" of domain-specific data at each top-level key. Similarly, the most common approach to writing reducer logic for that state shape is to have "slice reducer" functions, each with the same (state, action) signature, and each responsible for managing all updates to that specific slice of state. Multiple slice reducers can respond to the same action, independently update their own slice as needed, and the updated slices are combined into the new state object.
-  - Because this pattern is so common, Redux provides the combineReducers utility to implement that behavior. It is an example of a higher-order reducer, which takes an object full of slice reducer functions, and returns a new reducer function.
-- There are several important ideas to be aware of when using combineReducers:
-  - First and foremost, combineReducers is simply a utility function to simplify the most common use case when writing Redux reducers. You are not required to use it in your own application, and it does not handle every possible scenario. It is entirely possible to write reducer logic without using it, and it is quite common to need to write custom reducer logic for cases that combineReducer does not handle. (See Beyond combineReducers for examples and suggestions.)
-  - While Redux itself is not opinionated about how your state is organized, combineReducers enforces several rules to help users avoid common errors. (See combineReducers for details.)
-  - One frequently asked question is whether Redux "calls all reducers" when dispatching an action. Since there really is only one root reducer function, the default answer is "no, it does not". However, combineReducers has specific behavior that does work that way. In order to assemble the new state tree, combineReducers will call each slice reducer with its current slice of state and the current action, giving the slice reducer a chance to respond and update its slice of state if needed. So, in that sense, using combineReducers does "call all reducers", or at least all of the slice reducers it is wrapping.
-  - multiple combined reducers in various places, which are composed together to create the root reducer.
-  - The way Redux works is simple. There is a central store that holds the entire state of the application. Each component can access the stored state without having to send down props from one component to another.
+- Redux Toolkit
+  - The Redux Toolkit package is intended to be the standard way to write Redux logic. It was originally created to help address three common concerns about Redux:
+    - "Configuring a Redux store is too complicated"
+    - "I have to add a lot of packages to get Redux to do anything useful"
+    - "Redux requires too much boilerplate code"
+  - We can't solve every use case, but in the spirit of create-react-app and apollo-boost, we can try to provide some tools that abstract over the setup process and handle the most common use cases, as well as include some useful utilities that will let the user simplify their application code.
+  - Redux Toolkit also includes a powerful data fetching and caching capability that we've dubbed "RTK Query". It's included in the package as a separate set of entry points. It's optional, but can eliminate the need to hand-write data fetching logic yourself.
+  - These tools should be beneficial to all Redux users. Whether you're a brand new Redux user setting up your first project, or an experienced user who wants to simplify an existing application, Redux Toolkit can help you make your Redux code better.
+- Redux Toolkit includes these APIs:
+  - configureStore(): wraps createStore to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk by default, and enables use of the Redux DevTools Extension.
+  - createReducer(): that lets you supply a lookup table of action types to case reducer functions, rather than writing switch statements. In addition, it automatically uses the immer library to let you write simpler immutable updates with normal mutative code, like state.todos[3].completed = true.
+  - createAction(): generates an action creator function for the given action type string. The function itself has toString() defined, so that it can be used in place of the type constant.
+  - createSlice(): accepts an object of reducer functions, a slice name, and an initial state value, and automatically generates a slice reducer with corresponding action creators and action types.
+  - createAsyncThunk: accepts an action type string and a function that returns a promise, and generates a thunk that dispatches pending/fulfilled/rejected action types based on that promise
+  - createEntityAdapter: generates a set of reusable reducers and selectors to manage normalized data in the store
+  - The createSelector utility from the Reselect library, re-exported for ease of use.
 
-- Notes
-  - For any action that is not recognized, it must return the state given to it as the first argument.
-  - It must never return undefined. It is too easy to do this by mistake via an early return statement, so combineReducers throws if you do that instead of letting the error manifest itself somewhere else.
-  - If the state given to it is undefined, it must return the initial state for this specific reducer. According to the previous rule, the initial state must not be undefined either. It is handy to specify it with ES6 optional arguments syntax, but you can also explicitly check the first argument for being undefined.
+- Alternative State Managers
+  - [MobX](https://mobx.js.org/getting-started.html)
+  - [HookState](https://hookstate.js.org/)
 
-  - > For further information clicks =>[here](https://redux.js.org/api/combinereducers/) OR [here](https://redux.js.org/usage/structuring-reducers/using-combinereducers/)
+
+- > For further information clicks =>[here](https://redux-toolkit.js.org/introduction/getting-started)
+
 ---
 
 <br>

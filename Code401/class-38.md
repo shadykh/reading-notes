@@ -1,55 +1,50 @@
-# Readings: Redux - Combined Reducers
+# Readings: Redux - Asynchronous Actions
 
 ## Review, Research, and Discussion
 
-- Why choose Redux instead of the Context API for global state?
-  - So when using redux we can subscribe to the state or a peace/selection of the state and when the state or the selection of the state changes the subscribed component re-renders.
-  - But what does that means? It means if your components are not subscribed to the store they won't re-render after a dispatch.
-  - So now with that in mind if you have a lot of components simultaneously updating the global state where changes made by one component might not affect most of the other components. And you have lots and lots of those redux will give a performance edge.
-- What is the purpose of a reducer?
-  - A reducer is a function that determines changes to an application's state. It uses the action it receives to determine this change. We have tools, like Redux, that help manage an application's state changes in a single store so that they behave consistently.
-
-- What does an action contain?
-  - Actions are the only source of information for the store as per Redux official documentation. It carries a payload of information from your application to store.
-
-- Why do we need to copy the state in a reducer?
-  - In the documentation of reducers(read it again for details!), redux only requires our reducers to stay pure. If the new state is different, the reducer must create new object, and making a copy is a way to describe the unchanged part.
+- How granular should your reducers be?
+  - Imagine that you have an application for managing season pass holders on a stadium. We can see who is sitting where during the matches, see which seats are sold when, get a list of normal buyers as well as season pass holders and many other things. Once we select a seat we can add a season pass holder manually.
+  - I would say that the default solution would be that a change of any of those attributes would trigger a separate kind of action such as CHANGE_EMAIL or CHANGE_NAME. And sometimes such granularity is good and valuable because different reducers, different parts of your application might need to react differently to those actions. Sometimes it might be much easier for reducers if they can distinguish between those two particular use-cases.
+  - But sometimes, on the other hand, this is just boilerplate. And not a single part of your app cares whether all those attributes were changed together or not. In such case, you might want to simplify your solution by dispatching just one action with all the attributes.
+- Pro or Con – multiple reducers can “fire” when a commonly named action is dispatched
+  - It is a con.
+- Name a strategy for preventing the above
+  - redux thunk
 
 ---
 
 ## Vocabulary
 
-- immutable state
-  - In object-oriented and functional programming, an immutable object (unchangeable object) is an object whose state cannot be modified after it is created. This is in contrast to a mutable object (changeable object), which can be modified after it is created.
-- time travel in redux
-  - Time travel is the ability to move back and forth among the previous states of an application and view the results in real time. With Redux, given a specific state and a specific action, the next state of the application is always exactly the same.
-- action creator
-  - An action creator is merely a function that returns an action object. Redux includes a utility function called bindActionCreators for binding one or more action creators to the store's dispatch() function.
-- reducer
-  - A reducer is a function that determines changes to an application's state. It uses the action it receives to determine this change. We have tools, like Redux, that help manage an application's state changes in a single store so that they behave consistently.
-- dispatch
-  - dispatch() is the method used to dispatch actions and trigger state changes to the store. react-redux is simply trying to give you convenient access to it. Note, however, that dispatch is not available on props if you do pass in actions to your connect function.
+- combined reducers
+  - The combineReducers helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore . The resulting reducer calls every child reducer, and gathers their results into a single state object.
+- store
+  - A store is an immutable object tree in Redux. A store is a state container which holds the application's state. Redux can have only a single store in your application. Whenever a store is created in Redux, you need to specify the reducer.
 
 ---
 
 ## Preparation
 
-- combineReducers
-  - The most common state shape for a Redux app is a plain Javascript object containing "slices" of domain-specific data at each top-level key. Similarly, the most common approach to writing reducer logic for that state shape is to have "slice reducer" functions, each with the same (state, action) signature, and each responsible for managing all updates to that specific slice of state. Multiple slice reducers can respond to the same action, independently update their own slice as needed, and the updated slices are combined into the new state object.
-  - Because this pattern is so common, Redux provides the combineReducers utility to implement that behavior. It is an example of a higher-order reducer, which takes an object full of slice reducer functions, and returns a new reducer function.
-- There are several important ideas to be aware of when using combineReducers:
-  - First and foremost, combineReducers is simply a utility function to simplify the most common use case when writing Redux reducers. You are not required to use it in your own application, and it does not handle every possible scenario. It is entirely possible to write reducer logic without using it, and it is quite common to need to write custom reducer logic for cases that combineReducer does not handle. (See Beyond combineReducers for examples and suggestions.)
-  - While Redux itself is not opinionated about how your state is organized, combineReducers enforces several rules to help users avoid common errors. (See combineReducers for details.)
-  - One frequently asked question is whether Redux "calls all reducers" when dispatching an action. Since there really is only one root reducer function, the default answer is "no, it does not". However, combineReducers has specific behavior that does work that way. In order to assemble the new state tree, combineReducers will call each slice reducer with its current slice of state and the current action, giving the slice reducer a chance to respond and update its slice of state if needed. So, in that sense, using combineReducers does "call all reducers", or at least all of the slice reducers it is wrapping.
-  - multiple combined reducers in various places, which are composed together to create the root reducer.
-  - The way Redux works is simple. There is a central store that holds the entire state of the application. Each component can access the stored state without having to send down props from one component to another.
+- Asynchronous Redux Actions with Redux Thunk
+  - There are two very popular middleware libraries that allow for side effects and asynchronous actions: Redux Thunk and Redux Saga. In this post, you will explore Redux Thunk.
+  - Thunk is a programming concept where a function is used to delay the evaluation/calculation of an operation.
+  - Redux Thunk is a middleware that lets you call action creators that return a function instead of an action object. That function receives the store’s dispatch method, which is then used to dispatch regular synchronous actions inside the function’s body once the asynchronous operations have been completed.
+  - The most common use case for Redux Thunk is for communicating asynchronously with an external API to retrieve or save data. Redux Thunk makes it easy to dispatch actions that follow the lifecycle of a request to an external API.
+- Redux Middleware and Side Effects
+  - By itself, a Redux store doesn't know anything about async logic. It only knows how to synchronously dispatch actions, update the state by calling the root reducer function, and notify the UI that something has changed. Any asynchronicity has to happen outside the store.
+  - A "side effect" is any change to state or behavior that can be seen outside of returning a value from a function.
+  - Some common kinds of side effects are things like:
+    - Logging a value to the console
+    - Saving a file
+    - Setting an async timer
+    - Making an AJAX HTTP request
+    - Modifying some state that exists outside of a function, or mutating arguments to a function
+    - Generating random numbers or unique random IDs (such as Math.random() or Date.now())
+  - Redux middleware were designed to enable writing logic that has side effects.
+  - Redux Async Data Flow
+    - ![redux](https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif)
 
-- Notes
-  - For any action that is not recognized, it must return the state given to it as the first argument.
-  - It must never return undefined. It is too easy to do this by mistake via an early return statement, so combineReducers throws if you do that instead of letting the error manifest itself somewhere else.
-  - If the state given to it is undefined, it must return the initial state for this specific reducer. According to the previous rule, the initial state must not be undefined either. It is handy to specify it with ES6 optional arguments syntax, but you can also explicitly check the first argument for being undefined.
+  - > For further information clicks =>[here](https://redux.js.org/tutorials/fundamentals/part-6-async-logic) OR [here](https://www.digitalocean.com/community/tutorials/redux-redux-thunk)
 
-  - > For further information clicks =>[here](https://redux.js.org/api/combinereducers/) OR [here](https://redux.js.org/usage/structuring-reducers/using-combinereducers/)
 ---
 
 <br>
